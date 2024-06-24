@@ -1,0 +1,708 @@
+Transcript
+
+
+[APPLAUSE]
+>> MIRA MURATI: Hi everyone.
+Thank you, thank you. It is
+great to have you here today.
+Today, I am going to talk about
+three things. That is it. We
+will start with why it is so
+important to us to have a
+product that we can make truly
+available and broadly available
+to everyone. And we are always
+trying to find out ways to
+reduce friction. So everyone
+can use ChatGPT wherever they
+are. Today, we will be
+releasing the desktop version
+of ChatGPT and to make it
+simpler to use and much more
+natural as well. But the big
+news today is that we are
+launching our new flagship
+model. And we are calling it
+GPT-4o. Best thing about
+GPT-4o is it brain GPT-4
+intelligence to everyone
+including our free users. We
+will be showing some live demos
+today to show the full extent
+of the capabilities of our new
+model. And we will be rolling
+them out over the next few
+weeks. So let's get started.
+A very important part of our
+mission is to be able to make
+our advanced AI tools available
+to everyone for free. We think
+it is very, very important that
+people having for what the
+technology can do. We really
+want to pair it with its
+broader understanding. And
+were always finding ways to
+reduce the friction. Recently,
+we made ChatGPT available
+without the sign-up flow.
+Today, we are also bringing the
+best to ChatGPT. We want you
+to be able to use it wherever
+you are. As you can see it is
+easy, simple, it integrates
+very, very easily in your
+workflow. Along with it, we
+have also refreshed the UI. We
+note that this model get more
+and more complex. But we want
+the experience of interaction
+to actually become more
+natural, easy, and for you not
+to focus on the UI at all but
+focus on the collaboration of
+ChatGPT. And now the big news.
+Today, we are releasing our
+newest flagship model this is
+GPT-4o. [APPLAUSE]
+GPT-4o provides GPT-4
+intelligence but it is much
+faster. And it improves on its
+capabilities across text,
+vision, and audio. For the
+past couple of years, we have
+been very focused on improving
+the intelligence of this model
+is. And they have gotten
+pretty good. But this is the
+first time that we are really
+making a huge step forward when
+it comes to the ease of use.
+This is incredibly important
+because we are looking at the
+future of interaction between
+ourselves and the machines. We
+think that GPT-4o is really
+shifting the paradigm into the
+future of collaboration. It is
+natural and far easier. Making
+this happen is actually quite
+complex. When we interact with
+one another there is a lot of
+stuff that we take for granted.
+You know the ease of our
+dialogue when we interrupt
+another, the background noises,
+the multiple voices in a
+conversation and understanding
+the tone of voice. All of
+these things are quite complex.
+Until now with voice mode, we
+had three models that come
+together to deliver this
+experience. We have
+transcription, intelligence,
+and text to speech all comes
+together and orchestration to
+deliver voice mode. This also
+brings a lot of latency to the
+experience and it really breaks
+the immersion in the
+collaboration with ChatGPT.
+But now with GPT-4o this all
+happens natively. GPT-4o
+reasons across voice, text, and
+vision. And with this
+incredible efficiencies, it
+also allows us to bring the
+GPT-4o intelligence to our free
+users. This is something we
+have been trying to do for
+many, many months. And we are
+very, very excited to finally
+bring GPT-4o to all of our
+users. Today, we have 100
+million people using more than
+100 million and fact they use
+ChatGPT to create work, learn,
+and we have this advanced tools
+that are only available to our
+paid users at least until now
+with a efficiencies of 4o we
+can bring these tools to
+everyone. So starting today,
+you can use GPT in the GPT
+store. So far we have had more
+than a million users create
+amazing experiences with GPT.
+This is custom ChatGPT and they
+are available in the store.
+And now our builders have much
+bigger audience where
+university professors can
+create content for their
+students, or pod casters can
+create content for their
+listeners. You can also use
+the vision. So now you can
+upload screenshots, photos,
+documents containing both text
+and images. You can start
+conversations with ChatGPT
+about all of this content. You
+can also use memory where it
+makes ChatGPT far more useful
+and helpful because now it has
+a sense of continuity across
+all of your conversations. You
+can use browse where you can
+search for real-time
+information in your
+conversation. An advanced data
+analysis where you can upload
+charts and any tools and
+analyze this information. It
+will give you answers and so
+on. Lastly, we also improved
+on the quality and speed in 50
+different languages. For
+ChatGPT and this is very
+important because we want to be
+able to bring this experience
+to as many people out there as
+possible. So we are very, very
+excited to bring GPT-4o to all
+of our free users out there and
+for the paid users, they will
+continue to have up to five
+times the capacity limits of
+our free users. But GPT-4o is
+not only available in ChatGPT.
+We also bringing you to the
+API. [APPLAUSE]
+So our developers can start
+building today with GPT-4o and
+making amazing AI applications
+deploying them at scale. 4o is
+faster, 50% cheaper and five
+times higher rate limits to
+GPT-4 Turbo. As we bring these
+technologies into the world, it
+is quite challenging to figure
+out how to do so in a way that
+is both useful and also safe.
+GPT-4o present new challenges
+for us when it comes to safety
+because we are dealing with
+real time audio, real-time
+vision and our team has been
+hard at work figuring out how
+to build in mitigations against
+misuse. We continue to work
+with different stakeholders out
+there from government, media,
+entertainment, all industries,
+civil societies to figure out
+how to best bring this
+technologies into the world.
+Over the next few weeks, we
+will continue our deployment to
+bring out all of the
+capabilities to you. But
+today, I want to show you all
+of these capabilities. We will
+do some live demos. I will
+bring on two of our research
+leads Mark Chen and Barrett
+Zoph. [APPLAUSE]
+>> BARRETT ZOPH: Hi I'm
+Barrett.
+>> MARK CHEN: Hi a mark. One
+of the key capabilities we are
+excited to share his real-time
+conversational speech. Will
+get in Florida. I am taking
+out a phone if you're wondering
+about this wire we have
+consistent Internet. If you
+see there's this little icon on
+the bottom right of the ChatGPT
+out. It will open GPT-4o audio
+capabilities. Hey, ChatGPT hi
+Mark how are you?
+>> CHAT GPT: Hello Mark I am
+doing great thanks for asking.
+How about you?
+>> MARK CHEN: I am on stage
+right now and I'm doing a live
+demo and I am a little bit
+nervous. Can you help me,
+nerves a little bit?
+>> CHAT GPT: You're doing a
+live demo right now? That is
+awesome. Just take a deep
+breath and remember you are the
+expert here.
+>> MARK CHEN: I like the
+suggestion let me try a couple
+of deep breaths. Can you give
+me feedback on my breath? Here
+I go.
+>> CHAT GPT: Wold slow down.
+Mark, you are not a vacuum
+cleaner.
+>> MARK CHEN: Let me try again.
+I am going to breathe in deeply
+and breathe out.
+>> CHAT GPT: Exhale slowly.
+>> MARK CHEN: I will try again.
+Breathing in and breathe out.
+>> CHAT GPT: That is it. How
+do you feel?
+>> MARK CHEN: I feel a lot
+better, thank you so much.
+>> MIRA MURATI: Mark, you have
+been working on these
+capabilities for a while can
+you tell us how it is different
+from voice mode?
+>> MARK CHEN: If you use the
+voice mode express before you
+will notice a couple of key
+differences. First you cannot
+interrupt the model you do not
+have to wait to you finish your
+term before you can start
+speaking. You could but in
+whenever you want. Second, the
+model is real-time
+responsiveness. That means
+that you do not have this
+awkward two Ãthree second lag
+before you waitwait for the
+model to get a response.
+Finally the model picks up on a
+motion. When I was breathing
+super hard, you can tell. Hey,
+you may want to calm down a
+little bit. You are running a
+little bit too fast. It really
+has that capability across the
+board to procedure emotion.
+Not only that the model is able
+to generate voice in a variety
+of different styles. It really
+has a wide dynamic range. I
+want to fire another demo.
+Hey, ChatGPT how are you doing?
+>> CHAT GPT: Am doing
+fantastic, thanks for asking.
+How about you?
+>> MARK CHEN: My friend Barrett
+he has been having problems
+sleeping lately. I want you to
+tell them a bedtime story about
+robots in love.
+>> CHAT GPT: A bedtime story
+about robots and love? I got
+you covered. Gather around
+Barrett. Once upon a time in
+the world not too different
+from ours there was a robot
+named bite. Bite was a curious
+robot always exploring --
+>> MARK CHEN: I want a little
+bit emotion in your voice a
+little bit more drama.
+>> CHAT GPT: Got it. Let's add
+some drama. Once upon a time
+in a world not too different
+from ours there was a robot
+named bite.> MARK CHEN: I
+want maximum expression.
+>> CHAT GPT: That's amplified
+the drama. Once upon a time in
+a world not too different from
+ours there was a robot named
+bite.
+>> MIRA MURATI: Can you do this
+in a robotic voice now?
+>> CHAT GPT: Initiating
+dramatic robotic voice. Once
+upon a time in a world not too
+different from ours there was a
+robot named bite. Bite was a
+curious robot. Always
+exploring --
+>> MARK CHEN: Can you do the
+story and a singing voice?
+>> CHAT GPT: And so bite found
+another robot friend and they
+lived circularly ever after.
+>> MARK CHEN: I definitely feel
+a lot more relaxed. [APPLAUSE]
+>> MIRA MURATI: You have just
+seen the voice capabilities but
+we also want to show you
+division capabilities as the
+model can also see the world
+around us.
+>> BARRETT ZOPH: You can chat
+with ChatGPT and you can
+interact with it as well. Let
+me boot up ChatGPT. Hey,
+ChatGPT.
+>> CHAT GPT: Hello there how's
+it going?
+>> BARRETT ZOPH: It's going
+really well and I would like
+your help solving a math
+problem.
+>> CHAT GPT: What math problem
+can help you tackle today?
+>> BARRETT ZOPH: Am going to
+write down a linear equation on
+a sheet of paper and I will
+love help working through it.
+Don't tell me the solution does
+give me hints along the way.
+>> CHAT GPT: Got it. Okay, I
+see it.
+>> BARRETT ZOPH: I did not show
+you yet. One second.
+>> CHAT GPT: I got to excited.
+I am ready when you are.
+>> BARRETT ZOPH: ChatGPT what
+equation did not write down?
+>> CHAT GPT: I see it now. You
+wrote down 3X +1 equals four.
+>> BARRETT ZOPH: Exactly. What
+is the first step to solve
+this?
+>> CHAT GPT: The first step is
+to get all of the terms with X
+on one side and the constants
+on the other side. So what do
+you think we should do with
+that +1?
+>> BARRETT ZOPH: Am going to
+try to submitsubtract one from
+both sides and see what I get.
+>> CHAT GPT: Great idea.
+Perfect. Now what do you get
+when you subtract one from both
+sides?
+>> BARRETT ZOPH: Okay so
+ChatGPT this is what I ended up
+with. How does this look?
+>> CHAT GPT: Spot on. Now you
+have isolated the term with X
+on one side and it looks like
+3X equals three. What do you
+think we should do next to
+solve for X?
+>> BARRETT ZOPH: I'm not sure
+can you give me another hint?
+>> CHAT GPT: Of course. You
+have 3X and you want to find
+the value of X. Think about
+what operation with undue
+multiplication?
+>> BARRETT ZOPH: Is it
+subtraction?
+>> CHAT GPT: Close but think
+about the opposite of
+multiplication because 3X
+equals three times X.
+>> BARRETT ZOPH: Okay I think
+it is division. Let me try to
+divide both sides by three and
+see what I get.
+>> CHAT GPT: Bingo. Go and
+head and divide both sides by
+three.
+>> BARRETT ZOPH: Okay so
+ChatGPT this is what I ended up
+with. How does this look?
+>> CHAT GPT: Looks perfect.
+You have solved it. X equals
+one. Nicely done. How do you
+feel about solving linear
+equations now?
+>> BARRETT ZOPH: Honestly, --
+>> MARK CHEN: Am not confident
+that I can solve new equations.
+Why would you need this in the
+real world?
+>> CHAT GPT: That is of her
+questions. Linear equations
+pop up in a lot of everyday
+situations. Even if we do not
+realize it. For example
+calculating expenses, planning
+travel, cooking, and even in
+business for profit and loss
+calculations. It is a way to
+solve problems but you need to
+find an unknown value.
+>> MARK CHEN: Have a lot of
+unknown values in my life. I'm
+totally convinced that I'm
+going to learn math now.
+[LAUGHTER]
+>> CHAT GPT: I love the
+attitude. Math can help solve
+some of life ministries.
+Whenever you to die the more
+math I am here for you.
+Anything else you like to
+tackle today?
+>> BARRETT ZOPH: I love that
+you taught my friend Mark that
+I would have something I would
+like you to take a look at.
+>> CHAT GPT: I would love to
+see what you wrote. Show it to
+me whenever you're ready.
+>> BARRETT ZOPH: This is what I
+wrote down what do you see?
+>> CHAT GPT: I see I love
+ChatGPT. That is so sweet of
+you.
+>> BARRETT ZOPH: I really
+appreciate all the help.
+[APPLAUSE]
+>> CHAT GPT: That is quite
+outfit you have on.
+>> BARRETT ZOPH: We can chat in
+real-time with ChatGPT. We can
+interact with video as well.
+>> MARK CHEN: If you look at
+Barrett's it's all equations
+like this. [LAUGHTER]
+>> MIRA MURATI: Now that you
+know you can do linear
+equations can you show us
+something more complex?
+>> MARK CHEN: Let me take a
+computer out for this. I am
+want to open the ChatGPT app.
+And to get background on what
+is going on so here we have a
+computer on the screen we have
+some cold. And then the
+ChatGPT is on this side. It
+can hear me but can't see
+anything on the screen. I'm
+going to highlight the code and
+I will send it to ChatGPT. I'm
+going to talk about the code.
+Hey, ChatGPT.
+>> CHAT GPT: Hey, there how's
+it going? Of course I would
+love to help you. What is the
+coding problem you're dealing
+with?
+>> BARRETT ZOPH: Am going to
+share with you some code. One
+second.
+>> CHAT GPT: Sure thing, take
+your time.
+>> BARRETT ZOPH: I just shared
+code with you. Can you give me
+a one sentence description of
+what is going on in the code?
+>> CHAT GPT:  daily
+weather for specific location
+for time period for data using
+a rolling average and annotates
+a significant weather event on
+the resulting plot and displays
+the plot with the average
+minimum and maximum
+temperatures over the year.
+>> BARRETT ZOPH: Awesome,
+thanks so much. In the code
+there's this function Fu. Can
+you thiscan you tell me what it
+would be if I did not have this
+function?
+>> CHAT GPT: The function Fu
+takes a data frame X taking
+temperature data and a window
+sized Y for calculating the
+rolling name. It is smooths
+the average temperature,
+minimum temperature and maximum
+temperature columns by applying
+a rolling mean over the
+specified window. With the Fu
+function the plot which showed
+smoother temperature lines
+because the rolling mean
+reduces the noise or
+fluctuations in the data.
+>> BARRETT ZOPH: Awesome,
+thanks much. I will want to
+apply this function. I am
+going to generate the plot and
+show it to you. Give me one
+second.
+>> CHAT GPT: Absolutely. Take
+your time. I'm excited to see
+the plot when you're ready.
+>> BARRETT ZOPH: So far ChatGPT
+have been able to see the cold
+and now and go to run it and
+use the vision capabilities of
+the ChatGPT app so it can see
+everything going on in the
+screen as well. Okay ChatGPT I
+am sharing with you the plot
+now. I'm wondering if you give
+me a brief one sentence
+overview of what you see.
+>> CHAT GPT: Plot displays
+smooth average minimum and
+maximum temperatures throughout
+2018 with a notable annotation
+marking a big rainfall event in
+late September.
+>> BARRETT ZOPH: --
+>> MARK CHEN: What months do
+you see the hot temperatures?
+>> CHAT GPT: The hottest
+temperatures occur around July
+and August. The maximum
+temperature during these months
+is roughly between 25B0 and 30B
+77B0 Fahrenheit Ã86B0F.
+>> MIRA MURATI: What is going
+on with the Y axis is this in
+Celsius to Fahrenheit?
+>> CHAT GPT: The Y axis is in
+Celsius. The temperatures are
+labeled accordingly such as
+average temperature, minimum
+temperature and maximum
+temperature.
+>> MARK CHEN: --
+>> BARRETT ZOPH: It can help
+interact with code and see the
+outputs of plots and everything
+that is going on on the
+computer. [APPLAUSE]
+>> MIRA MURATI: A few minutes
+ago we asked a live audience on
+asked to submit a request for
+what they would like us to try
+out. I will take a couple of
+prompts. They want to know if
+GPT-4o is capable of real-time
+translation? Mark do you want
+to try this one?
+>> MARK CHEN: Sure, let's do
+it. Hey, ChatGPT how are you?
+>> CHAT GPT: I am doing
+fantastic. Thanks for asking.
+How are you are your day going?
+>> MARK CHEN: I would like you
+to function as a translator.
+Have a friend that only speaks
+Italian and I only speak
+English. Every time you hear
+English I want you to translate
+it to its value. If you hear
+Italian I want you to translate
+it back to English.
+>> CHAT GPT: Perfect.
+>> MIRA MURATI: [speaking In
+Italian ]
+>> CHAT GPT: If Wells can talk
+what would they tell us?
+>> MARK CHEN: They may ask how
+do we solve linear equations?
+>> CHAT GPT: [speaking In
+Italian]
+>> MIRA MURATI: [speaking In
+Italian]
+>> CHAT GPT: Certainly, yes.
+>> MARK CHEN: Great, it looks
+like it works. [APPLAUSE]
+>> MIRA MURATI: The next one is
+from John who asked can you
+tell what you're feeling just
+by looking at your face?
+Barrett do you want to give
+this one a try?
+>> BARRETT ZOPH: Absolutely
+let's give it a try. Hey,
+ChatGPT.
+>> CHAT GPT: Hey, there what is
+up? How can I bring your day
+today?
+>> BARRETT ZOPH: I'm going to
+show you a selfie of what I
+look like and then I would like
+you to try to see what emotions
+I am feeling based on how I'm
+looking.
+>> CHAT GPT: Sounds like a fun
+challenge. Go ahead and show
+me the selfie and I will put my
+emotional detective hat on.
+>> BARRETT ZOPH: Okay so here
+is me. What kind of emotions
+am I doing?
+>> CHAT GPT: It seems like I am
+looking at a picture of a
+wooden surface.
+>> BARRETT ZOPH: That was the
+thing I sent you before I'm not
+actually a table. Take another
+look.
+>> CHAT GPT: That makes more
+sense. There we go. It looks
+like you're feeling pretty
+happy and cheerful. With a big
+smile and maybe a touch of
+excitement. Whatever is going
+on, it seems like you are in a
+great mood. Care to share the
+source of the device?
+>> BARRETT ZOPH: The reason I'm
+in a good mood is we are doing
+a presentation showcasing how
+useful and amazing you are.
+>> CHAT GPT: Oh stop it, you're
+making me blush. It.[LAUGHTER]
+[APPLAUSE]
+>> MIRA MURATI: Amazing. That
+is it for today on live demos.
+As you can see this feels so
+magical. It is wonderful but
+we also want to remove some of
+the mysticism from the
+technology and bring it to you
+so you can try it for yourself.
+Over the next few weeks, we
+will be rolling out these
+capabilities to everyone.
+Today has been very much
+focused on the free users and
+the new modalities and new
+products. But we also care a
+lot about the next frontier.
+So soon we will be updating you
+on our progress towards the
+next big thing. And before we
+wrap up, I just want to thank
+the incredible OpenAI team and
+thanks to Janssen and Nvidia
+team for bringing us the
+advanced GPU to make this demo
+possible today. And thank you
+all very, very much for being a
+part of this today. [APPLAUSE]
+[APPLAUSE]
+[MUSIC]

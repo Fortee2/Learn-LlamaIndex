@@ -1,0 +1,4 @@
+llama-index
+llama-index-llms-bedrock
+llama-index-llms-ollama
+llama-index-embeddings-ollama
