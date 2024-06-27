@@ -1,19 +1,23 @@
 from llama_index.core import VectorStoreIndex, SimpleDirectoryReader
-from llama_index.core.llms import ChatMessage
-from llama_index.llms.bedrock import Bedrock
-from llama_index.embeddings.ollama import OllamaEmbedding
-from llama_index.core import Settings
 from llama_index.llms.ollama import Ollama
-from llama_index.core.memory import ChatMemoryBuffer
+from llama_index.core.response_synthesizers import TreeSummarize
 import os
 
-Settings.embed_model = OllamaEmbedding(
-    model_name="nomic-embed-text",
-    base_url="http://localhost:11434"
-)
+llm = Ollama(model="llama3", request_timeout=1000, temperature=0.5, top_p=0.9)
+llm.base_url = 'http://localhost:11434' 
 
-PERSIST_DIR = "./code_storage"
-documents = SimpleDirectoryReader(input_directory="./code/src", recursive=True).load_data()
-index = VectorStoreIndex.from_documents(documents)    
-# Save the index to disk
-index.storage_context.persist(persist_dir=PERSIST_DIR)
+reader = SimpleDirectoryReader(input_dir= "/Users/randycostner/source/lender-reporting/packages", recursive=True, required_exts=[".ts"], filename_as_id=True)
+
+docs = reader.load_data()
+
+text = docs[2].to_json()
+
+#print(text)
+
+from llama_index.core.response_synthesizers import TreeSummarize
+
+summarizer = TreeSummarize(verbose=True, llm=llm)
+
+response = summarizer.get_response("describe what this file does?", [text])
+
+print(response)
