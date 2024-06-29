@@ -32,7 +32,7 @@ def get_gmail_service():
 
 def list_messages(service, user_id='me'):
     # Call the Gmail API to fetch INBOX
-    results = service.users().messages().list(userId=user_id, labelIds=['INBOX']).execute()
+    results = service.users().messages().list(userId=user_id, labelIds=['INBOX', 'UNREAD']).execute()
     messages = results.get('messages', [])
 
     if not messages:
@@ -40,8 +40,16 @@ def list_messages(service, user_id='me'):
     else:
         print("Message snippets:")
         for message in messages[:5]:  # Get the first 5 messages
-            msg = service.users().messages().get(userId=user_id, id=message['id']).execute()
-            print(msg['snippet'])
+            msg = service.users().messages().get(userId=user_id, id=message['id'], format='full').execute()
+
+            # Extracting the Subject from headers
+            headers = msg['payload']['headers']
+            subject = next(header['value'] for header in headers if header['name'] == 'Subject')
+
+            # Extracting the message body
+            body = msg['payload']['body']['data']
+            print(f"Subject: {subject}")
+            print(f"Body: {body}")
 
 if __name__ == '__main__':
     service = get_gmail_service()
