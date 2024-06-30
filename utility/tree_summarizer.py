@@ -4,15 +4,15 @@ from llama_index.core.response_synthesizers import TreeSummarize
 import os
 
 llm = Ollama(model="llama3", request_timeout=1000, temperature=0.5, top_p=0.9)
-llm.base_url = 'http://localhost:11434' 
+llm.base_url = 'http://192.168.1.94:11434' 
 
-reader = SimpleDirectoryReader(input_dir= "/Users/randycostner/source/lender-reporting/packages", recursive=True, required_exts=[".ts"], filename_as_id=True)
+reader = SimpleDirectoryReader(input_dir= "/Volumes/Seagate Portabl/Projects/ListFlow/chrome", recursive=True, filename_as_id=True)
 
 docs = reader.load_data()
 
 text = docs[2].to_json()
 
-#print(text)
+print(text)
 
 from llama_index.core.response_synthesizers import TreeSummarize
 
